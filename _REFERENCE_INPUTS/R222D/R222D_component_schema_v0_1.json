@@ -1,0 +1,90 @@
+{
+  "stage_id": "1013R_R222D_CLASSROOM_COMPONENT_REGISTRY_AND_PREP_BINDING_CONTRACT",
+  "artifact": "component_schema_v0_1",
+  "status": "static_schema_contract",
+  "runtime_enabled": false,
+  "required_for_candidate_component": [
+    "component_id",
+    "cn_label",
+    "component_type",
+    "student_problem_solved",
+    "likely_surfaces",
+    "implementation_status"
+  ],
+  "required_for_detailed_component_card": [
+    "component_id",
+    "cn_label",
+    "component_type",
+    "teaching_responsibility",
+    "student_problem_solved",
+    "why_use",
+    "how_to_use",
+    "suitable_grade_band",
+    "suitable_archetypes",
+    "linked_candidate_skills",
+    "standard_alignment",
+    "media_requirements",
+    "screen_surface",
+    "learning_sheet_surface",
+    "teacher_language_slots",
+    "student_action",
+    "evidence_output",
+    "output_data",
+    "offline_fallback",
+    "misuse_risk",
+    "forbidden_use",
+    "implementation_status"
+  ],
+  "required_for_fixture_component": [
+    "sample_use_case",
+    "teacher_language_example",
+    "screen_prompt_example",
+    "learning_evidence_example"
+  ],
+  "allowed_component_types": [
+    "observation_discovery",
+    "comparison_judgment",
+    "classification_matching",
+    "inquiry_experiment",
+    "technique_demo",
+    "creation_scaffold",
+    "expression_exchange",
+    "display_evaluation",
+    "evidence_collection",
+    "classroom_organization"
+  ],
+  "allowed_implementation_status": [
+    "observed_pattern",
+    "candidate_component",
+    "fixture_component",
+    "static_screen_component",
+    "interactive_prototype",
+    "classroom_pilot",
+    "active_component",
+    "deprecated_component",
+    "merged_component"
+  ],
+  "current_allowed_status": [
+    "observed_pattern",
+    "candidate_component",
+    "fixture_component"
+  ],
+  "current_forbidden_status": [
+    "active_component",
+    "runtime_component",
+    "implemented_component",
+    "production_component",
+    "static_screen_component",
+    "interactive_prototype",
+    "classroom_pilot"
+  ],
+  "media_requirement_fields": [
+    "image_required",
+    "video_required",
+    "student_work_usable",
+    "physical_material_required",
+    "text_prompt_required",
+    "audio_required",
+    "data_required"
+  ]
+}

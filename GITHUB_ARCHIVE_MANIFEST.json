@@ -1,0 +1,164 @@
+{
+  "repo": "ROLLcatCLUB/shiwei-prep-room-r222d-p1-component-hardening-review-20260709",
+  "created_at": "2026-07-09T02:50:22",
+  "status": "ready_for_upload",
+  "zip_sha256": "631C6E50F3A44B7DD0964F2E949DAB23959F591256E05628E13FCD994699BB62",
+  "files": [
+    {
+      "path": "_REFERENCE_INPUTS/R221K/1013R_R221K_daily_lesson_language_rules.md",
+      "bytes": 513,
+      "sha256": "1B220DA98A9673B92099282B88C877705C1DF655D6223BB82400993C460B3439",
+      "raw_url": "https://raw.githubusercontent.com/ROLLcatCLUB/shiwei-prep-room-r222d-p1-component-hardening-review-20260709/main/_REFERENCE_INPUTS/R221K/1013R_R221K_daily_lesson_language_rules.md"
+    },
+    {
+      "path": "_REFERENCE_INPUTS/R221K/1013R_R221K_quick_prep_language_rules.md",
+      "bytes": 464,
+      "sha256": "E0CC900B3B0C74B5AD11395F6AD5B9FB2D3A961C1E835CCA717E03EF71F11989",
+      "raw_url": "https://raw.githubusercontent.com/ROLLcatCLUB/shiwei-prep-room-r222d-p1-component-hardening-review-20260709/main/_REFERENCE_INPUTS/R221K/1013R_R221K_quick_prep_language_rules.md"
+    },
+    {
+      "path": "_REFERENCE_INPUTS/R221K/1013R_R221K_teacher_language_slot_registry.json",
+      "bytes": 9297,
+      "sha256": "68E1B90BDE6752292A29C79A1DDCB364CDA86A257F21F8B4ACAE670740702CCE",
+      "raw_url": "https://raw.githubusercontent.com/ROLLcatCLUB/shiwei-prep-room-r222d-p1-component-hardening-review-20260709/main/_REFERENCE_INPUTS/R221K/1013R_R221K_teacher_language_slot_registry.json"
+    },
+    {
+      "path": "_REFERENCE_INPUTS/R222C/R222C_daily_prep_polished_samples.md",
+      "bytes": 7747,
+      "sha256": "4A0021D06959D95D97C7537AE89FE3D8595EC3434C2BFB21CCB93DF71336BBDE",
+      "raw_url": "https://raw.githubusercontent.com/ROLLcatCLUB/shiwei-prep-room-r222d-p1-component-hardening-review-20260709/main/_REFERENCE_INPUTS/R222C/R222C_daily_prep_polished_samples.md"
+    },
+    {
+      "path": "_REFERENCE_INPUTS/R222C/R222C_quick_prep_polished_samples.md",
+      "bytes": 3613,
+      "sha256": "E8D997C71071AC1C7D37DA33B80B9DF0A5DDE090EEAE5FC8030E7AD76C14B8F8",
+      "raw_url": "https://raw.githubusercontent.com/ROLLcatCLUB/shiwei-prep-room-r222d-p1-component-hardening-review-20260709/main/_REFERENCE_INPUTS/R222C/R222C_quick_prep_polished_samples.md"
+    },
+    {
+      "path": "_REFERENCE_INPUTS/R222C/R222C_teacher_quality_rubric.md",
+      "bytes": 1844,
+      "sha256": "0EF95C6EF5B7220CC80857BDA2EE25AF67FDAC2B6C88EC1C00203ED184205192",
+      "raw_url": "https://raw.githubusercontent.com/ROLLcatCLUB/shiwei-prep-room-r222d-p1-component-hardening-review-20260709/main/_REFERENCE_INPUTS/R222C/R222C_teacher_quality_rubric.md"
+    },
+    {
+      "path": "_REFERENCE_INPUTS/R222D/R222D_component_schema_v0_1.json",
+      "bytes": 2327,
+      "sha256": "C2B74AF919180342F9A818CB1314434D6AE6B86BB3EC96CA3B5E73F18CFA3EAE",
+      "raw_url": "https://raw.githubusercontent.com/ROLLcatCLUB/shiwei-prep-room-r222d-p1-component-hardening-review-20260709/main/_REFERENCE_INPUTS/R222D/R222D_component_schema_v0_1.json"
+    },
+    {
+      "path": "_REFERENCE_INPUTS/R222D/R222D_fixture_component_cards_v0_1.json",
+      "bytes": 37768,
+      "sha256": "918F4E2BF26425B51CFB2019B3DD18992C140119590093F515072FA701C1EF60",
+      "raw_url": "https://raw.githubusercontent.com/ROLLcatCLUB/shiwei-prep-room-r222d-p1-component-hardening-review-20260709/main/_REFERENCE_INPUTS/R222D/R222D_fixture_component_cards_v0_1.json"
+    },
+    {
+      "path": "_REFERENCE_INPUTS/R222D/R222D_prep_binding_examples.md",
+      "bytes": 1721,
+      "sha256": "0C2662D9D78F4640EF53E6E2CD715B74C218CA2FB3A7EC2C9FDD565B83EBA44D",
+      "raw_url": "https://raw.githubusercontent.com/ROLLcatCLUB/shiwei-prep-room-r222d-p1-component-hardening-review-20260709/main/_REFERENCE_INPUTS/R222D/R222D_prep_binding_examples.md"
+    },
+    {
+      "path": "_REFERENCE_INPUTS/R222D/R222D_report.md",
+      "bytes": 1244,
+      "sha256": "F93B894362B2FF174823F946BA515F8C5F09A67265A12CE7F6D8ACC1834FA126",
+      "raw_url": "https://raw.githubusercontent.com/ROLLcatCLUB/shiwei-prep-room-r222d-p1-component-hardening-review-20260709/main/_REFERENCE_INPUTS/R222D/R222D_report.md"
+    },
+    {
+      "path": "_REFERENCE_INPUTS/R222D/R222D_sample_component_cards.md",
+      "bytes": 10578,
+      "sha256": "2DF9FCE5879FA3ED722FF861371A631F9AD2B70E31000289746393AAC3F28D3D",
+      "raw_url": "https://raw.githubusercontent.com/ROLLcatCLUB/shiwei-prep-room-r222d-p1-component-hardening-review-20260709/main/_REFERENCE_INPUTS/R222D/R222D_sample_component_cards.md"
+    },
+    {
+      "path": "PACKAGE_MANIFEST.json",
+      "bytes": 5304,
+      "sha256": "AF8C44398520C0F685168503A0A159BF33F8C66B4E6AD818F54836619D7EF91C",
+      "raw_url": "https://raw.githubusercontent.com/ROLLcatCLUB/shiwei-prep-room-r222d-p1-component-hardening-review-20260709/main/PACKAGE_MANIFEST.json"
+    },
+    {
+      "path": "R222D_P1_component_relation_and_merge_notes.md",
+      "bytes": 4092,
+      "sha256": "061DED166B762F866F26A5EE9459A16429C1FA870AFF1AB041E2C75CBE91C7AD",
+      "raw_url": "https://raw.githubusercontent.com/ROLLcatCLUB/shiwei-prep-room-r222d-p1-component-hardening-review-20260709/main/R222D_P1_component_relation_and_merge_notes.md"
+    },
+    {
+      "path": "R222D_P1_evidence_output_examples.md",
+      "bytes": 1356,
+      "sha256": "FE776888516784627ED9C33192A9DC642F971D0512E151D4B9315A6B478878DF",
+      "raw_url": "https://raw.githubusercontent.com/ROLLcatCLUB/shiwei-prep-room-r222d-p1-component-hardening-review-20260709/main/R222D_P1_evidence_output_examples.md"
+    },
+    {
+      "path": "R222D_P1_hardened_fixture_component_cards.json",
+      "bytes": 71493,
+      "sha256": "0CD8B18AD3294C38B77764DBC82C1E9EDA1F286E80000F97C35653652050A577",
+      "raw_url": "https://raw.githubusercontent.com/ROLLcatCLUB/shiwei-prep-room-r222d-p1-component-hardening-review-20260709/main/R222D_P1_hardened_fixture_component_cards.json"
+    },
+    {
+      "path": "R222D_P1_hardened_fixture_component_cards.md",
+      "bytes": 27703,
+      "sha256": "AAEF4B2A689ACC10F3E7EEA68A7A293868E49A05F033B46829AAFC1C6A10E992",
+      "raw_url": "https://raw.githubusercontent.com/ROLLcatCLUB/shiwei-prep-room-r222d-p1-component-hardening-review-20260709/main/R222D_P1_hardened_fixture_component_cards.md"
+    },
+    {
+      "path": "R222D_P1_media_requirement_detail_matrix.md",
+      "bytes": 2914,
+      "sha256": "9AC8AE5C7F846D29F58DAE3DF6F03D6B03A895EA4A5BBC260BA65B518E8CC940",
+      "raw_url": "https://raw.githubusercontent.com/ROLLcatCLUB/shiwei-prep-room-r222d-p1-component-hardening-review-20260709/main/R222D_P1_media_requirement_detail_matrix.md"
+    },
+    {
+      "path": "R222D_P1_report.md",
+      "bytes": 1242,
+      "sha256": "F75E9B74ECFB0740F1763D2EF2F8B2C3228796AB8CBD5C2BCBD57DAB6BDE59FB",
+      "raw_url": "https://raw.githubusercontent.com/ROLLcatCLUB/shiwei-prep-room-r222d-p1-component-hardening-review-20260709/main/R222D_P1_report.md"
+    },
+    {
+      "path": "R222D_P1_screen_prompt_examples.md",
+      "bytes": 1040,
+      "sha256": "AAE93A44654146472D7A333C1C340715AC837668A7486FFA12F82C0793FCBFE1",
+      "raw_url": "https://raw.githubusercontent.com/ROLLcatCLUB/shiwei-prep-room-r222d-p1-component-hardening-review-20260709/main/R222D_P1_screen_prompt_examples.md"
+    },
+    {
+      "path": "R222D_P1_teacher_language_examples.md",
+      "bytes": 3187,
+      "sha256": "F0215649F7EAF22715BB6D4CB49F95DFD3878825BE8E018D883BA9A7C8ACA857",
+      "raw_url": "https://raw.githubusercontent.com/ROLLcatCLUB/shiwei-prep-room-r222d-p1-component-hardening-review-20260709/main/R222D_P1_teacher_language_examples.md"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2342,
+      "sha256": "C6CFB3E8D9F79658711EB3E8FB004C45A29322EE496F83069FD19CD2AAB5E0B2",
+      "raw_url": "https://raw.githubusercontent.com/ROLLcatCLUB/shiwei-prep-room-r222d-p1-component-hardening-review-20260709/main/README.md"
+    },
+    {
+      "path": "README_FOR_GPT_REVIEW.md",
+      "bytes": 974,
+      "sha256": "5338B96AB9F66FD76D14278EECE2776ED3ED3DEDE7250CB34F73A37721EF9D50",
+      "raw_url": "https://raw.githubusercontent.com/ROLLcatCLUB/shiwei-prep-room-r222d-p1-component-hardening-review-20260709/main/README_FOR_GPT_REVIEW.md"
+    },
+    {
+      "path": "review_packages/1013R_R222D_P1_COMPONENT_PEDAGOGICAL_HARDENING_REVIEW.zip",
+      "bytes": 58279,
+      "sha256": "631C6E50F3A44B7DD0964F2E949DAB23959F591256E05628E13FCD994699BB62",
+      "raw_url": "https://raw.githubusercontent.com/ROLLcatCLUB/shiwei-prep-room-r222d-p1-component-hardening-review-20260709/main/review_packages/1013R_R222D_P1_COMPONENT_PEDAGOGICAL_HARDENING_REVIEW.zip"
+    },
+    {
+      "path": "validate_1013R_R222D_P1_component_pedagogical_hardening.py",
+      "bytes": 4390,
+      "sha256": "A69D66CDCE7EC08142AB88AFA1DF54396060E984E9F73F149D5EB1B0166A963A",
+      "raw_url": "https://raw.githubusercontent.com/ROLLcatCLUB/shiwei-prep-room-r222d-p1-component-hardening-review-20260709/main/validate_1013R_R222D_P1_component_pedagogical_hardening.py"
+    },
+    {
+      "path": "validate_1013R_R222D_P1_component_pedagogical_hardening_result.json",
+      "bytes": 151,
+      "sha256": "5498A5EE8CC961D8D71276385543BD0FB0D52CDBA3D784C57248D9C2A3A545B2",
+      "raw_url": "https://raw.githubusercontent.com/ROLLcatCLUB/shiwei-prep-room-r222d-p1-component-hardening-review-20260709/main/validate_1013R_R222D_P1_component_pedagogical_hardening_result.json"
+    },
+    {
+      "path": "ZIP_SHA256.txt",
+      "bytes": 66,
+      "sha256": "D0D9B9D23C85F0CF3677CBB1359FD298088169AE1CCD69D24547A7D7D14B2D5A",
+      "raw_url": "https://raw.githubusercontent.com/ROLLcatCLUB/shiwei-prep-room-r222d-p1-component-hardening-review-20260709/main/ZIP_SHA256.txt"
+    }
+  ]
+}

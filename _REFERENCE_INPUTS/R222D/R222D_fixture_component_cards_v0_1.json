@@ -1,0 +1,973 @@
+{
+  "stage_id": "1013R_R222D_CLASSROOM_COMPONENT_REGISTRY_AND_PREP_BINDING_CONTRACT",
+  "artifact": "fixture_component_cards_v0_1",
+  "status": "static_fixture_cards",
+  "fixture_component_count": 12,
+  "fixture_component_cards": [
+    {
+      "component_id": "compare_two_images",
+      "cn_label": "比一比",
+      "component_type": "comparison_judgment",
+      "teaching_responsibility": "作为对比判断类组件，比一比用于把课堂动作转化为可观察、可提示、可留下证据的学习过程。",
+      "student_problem_solved": "看不出差异、优劣、正误。",
+      "why_use": "当看不出差异、优劣、正误时使用，帮助教师把学习困难转化为可操作的课堂任务。",
+      "how_to_use": [
+        "明确学习目标或观察对象",
+        "启动“比一比”课堂任务",
+        "让学生完成可见动作",
+        "教师追问理由或方法",
+        "收集学习证据并归纳方法"
+      ],
+      "suitable_grade_band": [
+        "第一学段",
+        "第二学段",
+        "第三学段"
+      ],
+      "suitable_archetypes": [
+        "visual_language_reasoning",
+        "assessment_evidence_chain"
+      ],
+      "linked_candidate_skills": [
+        "visual_language_reasoning_skill",
+        "assessment_evidence_chain_skill"
+      ],
+      "standard_alignment": {
+        "art_practice_type": [
+          "欣赏·评述",
+          "造型·表现"
+        ],
+        "core_competency_focus": [
+          "审美感知",
+          "艺术表现"
+        ]
+      },
+      "media_requirements": {
+        "image_required": true,
+        "video_required": false,
+        "student_work_usable": true,
+        "physical_material_required": false,
+        "text_prompt_required": true,
+        "audio_required": false,
+        "data_required": false
+      },
+      "screen_surface": "并列图片/作品 + 判断问题",
+      "learning_sheet_surface": "对比表",
+      "teacher_language_slots": [
+        "observation_prompt",
+        "follow_up_question",
+        "transition_summary"
+      ],
+      "student_action": [
+        "观察",
+        "操作或表达",
+        "说明理由",
+        "提交证据"
+      ],
+      "evidence_output": [
+        "差异点",
+        "判断理由",
+        "改进建议"
+      ],
+      "output_data": [
+        "component_use_record",
+        "student_response",
+        "evidence_marker"
+      ],
+      "offline_fallback": "无大屏时可用纸质图片、学习单、小组讨论或实物材料完成。",
+      "misuse_risk": "若只把“比一比”当活动名称或 UI 控件使用，会丢失教学责任和证据输出。",
+      "forbidden_use": [
+        "不得作为纯 UI 控件上线",
+        "不得替代课标和资料证据判断",
+        "不得自动发布为 active_component"
+      ],
+      "implementation_status": "fixture_component",
+      "sample_use_case": "在三年级美术课中，当看不出差异、优劣、正误时，用“比一比”承接一个 3-8 分钟课堂动作。",
+      "teacher_language_example": "请用“比一比”的方法完成观察或操作，说清你的发现和理由。",
+      "screen_prompt_example": "比一比: 看任务、做动作、说理由、留证据。",
+      "learning_evidence_example": "差异点"
+    },
+    {
+      "component_id": "circle_and_annotate",
+      "cn_label": "圈一圈",
+      "component_type": "observation_discovery",
+      "teaching_responsibility": "作为观察发现类组件，圈一圈用于把课堂动作转化为可观察、可提示、可留下证据的学习过程。",
+      "student_problem_solved": "看到了但抓不住重点。",
+      "why_use": "当看到了但抓不住重点时使用，帮助教师把学习困难转化为可操作的课堂任务。",
+      "how_to_use": [
+        "明确学习目标或观察对象",
+        "启动“圈一圈”课堂任务",
+        "让学生完成可见动作",
+        "教师追问理由或方法",
+        "收集学习证据并归纳方法"
+      ],
+      "suitable_grade_band": [
+        "第一学段",
+        "第二学段",
+        "第三学段"
+      ],
+      "suitable_archetypes": [
+        "visual_language_reasoning"
+      ],
+      "linked_candidate_skills": [
+        "visual_observation_skill",
+        "teacher_question_chain_skill"
+      ],
+      "standard_alignment": {
+        "art_practice_type": [
+          "欣赏·评述"
+        ],
+        "core_competency_focus": [
+          "审美感知"
+        ]
+      },
+      "media_requirements": {
+        "image_required": true,
+        "video_required": false,
+        "student_work_usable": true,
+        "physical_material_required": false,
+        "text_prompt_required": true,
+        "audio_required": false,
+        "data_required": false
+      },
+      "screen_surface": "图片/局部图 + 观察问题 + 标注提示",
+      "learning_sheet_surface": "观察记录栏",
+      "teacher_language_slots": [
+        "observation_prompt",
+        "follow_up_question",
+        "transition_summary"
+      ],
+      "student_action": [
+        "观察",
+        "操作或表达",
+        "说明理由",
+        "提交证据"
+      ],
+      "evidence_output": [
+        "学生标注的观察点",
+        "观察理由",
+        "教师追问回应"
+      ],
+      "output_data": [
+        "component_use_record",
+        "student_response",
+        "evidence_marker"
+      ],
+      "offline_fallback": "无大屏时可用纸质图片、学习单、小组讨论或实物材料完成。",
+      "misuse_risk": "若只把“圈一圈”当活动名称或 UI 控件使用，会丢失教学责任和证据输出。",
+      "forbidden_use": [
+        "不得作为纯 UI 控件上线",
+        "不得替代课标和资料证据判断",
+        "不得自动发布为 active_component"
+      ],
+      "implementation_status": "fixture_component",
+      "sample_use_case": "在三年级美术课中，当看到了但抓不住重点时，用“圈一圈”承接一个 3-8 分钟课堂动作。",
+      "teacher_language_example": "请用“圈一圈”的方法完成观察或操作，说清你的发现和理由。",
+      "screen_prompt_example": "圈一圈: 看任务、做动作、说理由、留证据。",
+      "learning_evidence_example": "学生标注的观察点"
+    },
+    {
+      "component_id": "match_cards",
+      "cn_label": "连连看",
+      "component_type": "classification_matching",
+      "teaching_responsibility": "作为分类匹配类组件，连连看用于把课堂动作转化为可观察、可提示、可留下证据的学习过程。",
+      "student_problem_solved": "图、词、方法不能对应。",
+      "why_use": "当图、词、方法不能对应时使用，帮助教师把学习困难转化为可操作的课堂任务。",
+      "how_to_use": [
+        "明确学习目标或观察对象",
+        "启动“连连看”课堂任务",
+        "让学生完成可见动作",
+        "教师追问理由或方法",
+        "收集学习证据并归纳方法"
+      ],
+      "suitable_grade_band": [
+        "第一学段",
+        "第二学段",
+        "第三学段"
+      ],
+      "suitable_archetypes": [
+        "art_cognition_classification",
+        "visual_language_reasoning"
+      ],
+      "linked_candidate_skills": [
+        "concept_relation_mapping_skill",
+        "lesson_dna_classification_skill"
+      ],
+      "standard_alignment": {
+        "art_practice_type": [
+          "欣赏·评述",
+          "综合·探索"
+        ],
+        "core_competency_focus": [
+          "审美感知",
+          "文化理解"
+        ]
+      },
+      "media_requirements": {
+        "image_required": true,
+        "video_required": false,
+        "student_work_usable": false,
+        "physical_material_required": false,
+        "text_prompt_required": true,
+        "audio_required": false,
+        "data_required": true
+      },
+      "screen_surface": "卡片/关系节点",
+      "learning_sheet_surface": "匹配或分类表",
+      "teacher_language_slots": [
+        "observation_prompt",
+        "follow_up_question",
+        "transition_summary"
+      ],
+      "student_action": [
+        "观察",
+        "操作或表达",
+        "说明理由",
+        "提交证据"
+      ],
+      "evidence_output": [
+        "匹配结果",
+        "分类理由",
+        "关系说明"
+      ],
+      "output_data": [
+        "component_use_record",
+        "student_response",
+        "evidence_marker"
+      ],
+      "offline_fallback": "无大屏时可用纸质图片、学习单、小组讨论或实物材料完成。",
+      "misuse_risk": "若只把“连连看”当活动名称或 UI 控件使用，会丢失教学责任和证据输出。",
+      "forbidden_use": [
+        "不得作为纯 UI 控件上线",
+        "不得替代课标和资料证据判断",
+        "不得自动发布为 active_component"
+      ],
+      "implementation_status": "fixture_component",
+      "sample_use_case": "在三年级美术课中，当图、词、方法不能对应时，用“连连看”承接一个 3-8 分钟课堂动作。",
+      "teacher_language_example": "请用“连连看”的方法完成观察或操作，说清你的发现和理由。",
+      "screen_prompt_example": "连连看: 看任务、做动作、说理由、留证据。",
+      "learning_evidence_example": "匹配结果"
+    },
+    {
+      "component_id": "guess_from_clue",
+      "cn_label": "猜一猜",
+      "component_type": "observation_discovery",
+      "teaching_responsibility": "作为观察发现类组件，猜一猜用于把课堂动作转化为可观察、可提示、可留下证据的学习过程。",
+      "student_problem_solved": "观察兴趣不足，需要通过线索进入。",
+      "why_use": "当观察兴趣不足，需要通过线索进入时使用，帮助教师把学习困难转化为可操作的课堂任务。",
+      "how_to_use": [
+        "明确学习目标或观察对象",
+        "启动“猜一猜”课堂任务",
+        "让学生完成可见动作",
+        "教师追问理由或方法",
+        "收集学习证据并归纳方法"
+      ],
+      "suitable_grade_band": [
+        "第一学段",
+        "第二学段",
+        "第三学段"
+      ],
+      "suitable_archetypes": [
+        "visual_language_reasoning"
+      ],
+      "linked_candidate_skills": [
+        "visual_observation_skill",
+        "teacher_question_chain_skill"
+      ],
+      "standard_alignment": {
+        "art_practice_type": [
+          "欣赏·评述"
+        ],
+        "core_competency_focus": [
+          "审美感知"
+        ]
+      },
+      "media_requirements": {
+        "image_required": true,
+        "video_required": false,
+        "student_work_usable": true,
+        "physical_material_required": false,
+        "text_prompt_required": true,
+        "audio_required": false,
+        "data_required": false
+      },
+      "screen_surface": "图片/局部图 + 观察问题 + 标注提示",
+      "learning_sheet_surface": "观察记录栏",
+      "teacher_language_slots": [
+        "observation_prompt",
+        "follow_up_question"
+      ],
+      "student_action": [
+        "观察",
+        "说明理由",
+        "提交证据"
+      ],
+      "evidence_output": [
+        "学生标注的观察点",
+        "观察理由",
+        "教师追问回应"
+      ],
+      "output_data": [
+        "component_use_record",
+        "student_response",
+        "evidence_marker"
+      ],
+      "offline_fallback": "可用纸质材料和小组讨论完成。",
+      "misuse_risk": "只当活动名使用会丢失教学责任。",
+      "forbidden_use": [
+        "不得作为纯 UI 控件上线",
+        "不得自动发布为 active_component"
+      ],
+      "implementation_status": "fixture_component",
+      "sample_use_case": "在三年级美术课中，当观察兴趣不足，需要通过线索进入时，用“猜一猜”承接一个 3-8 分钟课堂动作。",
+      "teacher_language_example": "请用“猜一猜”的方法完成观察或操作，说清你的发现和理由。",
+      "screen_prompt_example": "猜一猜: 看任务、做动作、说理由、留证据。",
+      "learning_evidence_example": "学生标注的观察点"
+    },
+    {
+      "component_id": "material_mystery_box",
+      "cn_label": "材料盲盒",
+      "component_type": "inquiry_experiment",
+      "teaching_responsibility": "作为探究实验类组件，材料盲盒用于把课堂动作转化为可观察、可提示、可留下证据的学习过程。",
+      "student_problem_solved": "对材料特性无感。",
+      "why_use": "当对材料特性无感时使用，帮助教师把学习困难转化为可操作的课堂任务。",
+      "how_to_use": [
+        "明确学习目标或观察对象",
+        "启动“材料盲盒”课堂任务",
+        "让学生操作、试验并记录发现",
+        "教师追问理由或方法",
+        "收集学习证据并归纳方法"
+      ],
+      "suitable_grade_band": [
+        "第一学段",
+        "第二学段",
+        "第三学段"
+      ],
+      "suitable_archetypes": [
+        "material_technique_inquiry",
+        "experiment_inquiry"
+      ],
+      "linked_candidate_skills": [
+        "material_technique_inquiry_skill",
+        "process_evidence_skill"
+      ],
+      "standard_alignment": {
+        "art_practice_type": [
+          "造型·表现",
+          "综合·探索"
+        ],
+        "core_competency_focus": [
+          "艺术表现",
+          "创意实践"
+        ]
+      },
+      "media_requirements": {
+        "image_required": false,
+        "video_required": false,
+        "student_work_usable": false,
+        "physical_material_required": true,
+        "text_prompt_required": true,
+        "audio_required": false,
+        "data_required": true
+      },
+      "screen_surface": "实验任务和注意点",
+      "learning_sheet_surface": "过程记录表",
+      "teacher_language_slots": [
+        "task_release_talk",
+        "practice_instruction",
+        "feedback_language"
+      ],
+      "student_action": [
+        "观察",
+        "操作或表达",
+        "说明理由",
+        "提交证据"
+      ],
+      "evidence_output": [
+        "过程记录",
+        "材料或方法发现",
+        "试验结果"
+      ],
+      "output_data": [
+        "component_use_record",
+        "student_response",
+        "evidence_marker"
+      ],
+      "offline_fallback": "无大屏时可用纸质图片、学习单、小组讨论或实物材料完成。",
+      "misuse_risk": "若只把“材料盲盒”当活动名称或 UI 控件使用，会丢失教学责任和证据输出。",
+      "forbidden_use": [
+        "不得作为纯 UI 控件上线",
+        "不得替代课标和资料证据判断",
+        "不得自动发布为 active_component"
+      ],
+      "implementation_status": "fixture_component",
+      "sample_use_case": "在三年级美术课中，当对材料特性无感时，用“材料盲盒”承接一个 3-8 分钟课堂动作。",
+      "teacher_language_example": "请用“材料盲盒”的方法完成观察或操作，说清你的发现和理由。",
+      "screen_prompt_example": "材料盲盒: 看任务、做动作、说理由、留证据。",
+      "learning_evidence_example": "过程记录"
+    },
+    {
+      "component_id": "technique_step_demo",
+      "cn_label": "技法拆解",
+      "component_type": "technique_demo",
+      "teaching_responsibility": "作为技法示范类组件，技法拆解用于把课堂动作转化为可观察、可提示、可留下证据的学习过程。",
+      "student_problem_solved": "步骤混乱，不会做。",
+      "why_use": "当步骤混乱，不会做时使用，帮助教师把学习困难转化为可操作的课堂任务。",
+      "how_to_use": [
+        "明确学习目标或观察对象",
+        "启动“技法拆解”课堂任务",
+        "让学生观察关键步骤并尝试模仿",
+        "教师追问理由或方法",
+        "收集学习证据并归纳方法"
+      ],
+      "suitable_grade_band": [
+        "第一学段",
+        "第二学段",
+        "第三学段"
+      ],
+      "suitable_archetypes": [
+        "material_technique_inquiry",
+        "technique_demonstration"
+      ],
+      "linked_candidate_skills": [
+        "technique_step_decomposition_skill",
+        "common_mistake_repair_skill"
+      ],
+      "standard_alignment": {
+        "art_practice_type": [
+          "造型·表现"
+        ],
+        "core_competency_focus": [
+          "艺术表现"
+        ]
+      },
+      "media_requirements": {
+        "image_required": true,
+        "video_required": true,
+        "student_work_usable": true,
+        "physical_material_required": true,
+        "text_prompt_required": true,
+        "audio_required": false,
+        "data_required": false
+      },
+      "screen_surface": "步骤图/示范片段/错误例",
+      "learning_sheet_surface": "步骤核对表",
+      "teacher_language_slots": [
+        "task_release_talk",
+        "practice_instruction",
+        "feedback_language"
+      ],
+      "student_action": [
+        "观察",
+        "操作或表达",
+        "说明理由",
+        "提交证据"
+      ],
+      "evidence_output": [
+        "步骤完成情况",
+        "常见错误修正",
+        "操作结果"
+      ],
+      "output_data": [
+        "component_use_record",
+        "student_response",
+        "evidence_marker"
+      ],
+      "offline_fallback": "无大屏时可用纸质图片、学习单、小组讨论或实物材料完成。",
+      "misuse_risk": "若只把“技法拆解”当活动名称或 UI 控件使用，会丢失教学责任和证据输出。",
+      "forbidden_use": [
+        "不得作为纯 UI 控件上线",
+        "不得替代课标和资料证据判断",
+        "不得自动发布为 active_component"
+      ],
+      "implementation_status": "fixture_component",
+      "sample_use_case": "在三年级美术课中，当步骤混乱，不会做时，用“技法拆解”承接一个 3-8 分钟课堂动作。",
+      "teacher_language_example": "请用“技法拆解”的方法完成观察或操作，说清你的发现和理由。",
+      "screen_prompt_example": "技法拆解: 看任务、做动作、说理由、留证据。",
+      "learning_evidence_example": "步骤完成情况"
+    },
+    {
+      "component_id": "tiered_challenge",
+      "cn_label": "分层挑战",
+      "component_type": "creation_scaffold",
+      "teaching_responsibility": "作为创作支架类组件，分层挑战用于把课堂动作转化为可观察、可提示、可留下证据的学习过程。",
+      "student_problem_solved": "学生能力差异大。",
+      "why_use": "当学生能力差异大时使用，帮助教师把学习困难转化为可操作的课堂任务。",
+      "how_to_use": [
+        "明确学习目标或观察对象",
+        "启动“分层挑战”课堂任务",
+        "让学生完成可见动作",
+        "教师追问理由或方法",
+        "收集学习证据并归纳方法"
+      ],
+      "suitable_grade_band": [
+        "第一学段",
+        "第二学段",
+        "第三学段"
+      ],
+      "suitable_archetypes": [
+        "design_application",
+        "creative_expression"
+      ],
+      "linked_candidate_skills": [
+        "creative_scaffold_skill",
+        "differentiated_task_skill"
+      ],
+      "standard_alignment": {
+        "art_practice_type": [
+          "造型·表现",
+          "设计·应用"
+        ],
+        "core_competency_focus": [
+          "创意实践",
+          "艺术表现"
+        ]
+      },
+      "media_requirements": {
+        "image_required": true,
+        "video_required": false,
+        "student_work_usable": true,
+        "physical_material_required": true,
+        "text_prompt_required": true,
+        "audio_required": false,
+        "data_required": false
+      },
+      "screen_surface": "任务层级/材料选择提示",
+      "learning_sheet_surface": "构思草图或任务卡",
+      "teacher_language_slots": [
+        "task_release_talk",
+        "practice_instruction",
+        "feedback_language"
+      ],
+      "student_action": [
+        "观察",
+        "操作或表达",
+        "说明理由",
+        "提交证据"
+      ],
+      "evidence_output": [
+        "构思草图",
+        "材料选择理由",
+        "分层任务成果"
+      ],
+      "output_data": [
+        "component_use_record",
+        "student_response",
+        "evidence_marker"
+      ],
+      "offline_fallback": "无大屏时可用纸质图片、学习单、小组讨论或实物材料完成。",
+      "misuse_risk": "若只把“分层挑战”当活动名称或 UI 控件使用，会丢失教学责任和证据输出。",
+      "forbidden_use": [
+        "不得作为纯 UI 控件上线",
+        "不得替代课标和资料证据判断",
+        "不得自动发布为 active_component"
+      ],
+      "implementation_status": "fixture_component",
+      "sample_use_case": "在三年级美术课中，当学生能力差异大时，用“分层挑战”承接一个 3-8 分钟课堂动作。",
+      "teacher_language_example": "请用“分层挑战”的方法完成观察或操作，说清你的发现和理由。",
+      "screen_prompt_example": "分层挑战: 看任务、做动作、说理由、留证据。",
+      "learning_evidence_example": "构思草图"
+    },
+    {
+      "component_id": "gallery_walk",
+      "cn_label": "作品画廊",
+      "component_type": "display_evaluation",
+      "teaching_responsibility": "作为展示评价类组件，作品画廊用于把课堂动作转化为可观察、可提示、可留下证据的学习过程。",
+      "student_problem_solved": "不会欣赏同伴作品。",
+      "why_use": "当不会欣赏同伴作品时使用，帮助教师把学习困难转化为可操作的课堂任务。",
+      "how_to_use": [
+        "明确学习目标或观察对象",
+        "启动“作品画廊”课堂任务",
+        "让学生观看作品并用关键词评价",
+        "教师追问理由或方法",
+        "收集学习证据并归纳方法"
+      ],
+      "suitable_grade_band": [
+        "第一学段",
+        "第二学段",
+        "第三学段"
+      ],
+      "suitable_archetypes": [
+        "assessment_evidence_chain",
+        "presentation_expression"
+      ],
+      "linked_candidate_skills": [
+        "assessment_evidence_chain_skill",
+        "peer_feedback_skill"
+      ],
+      "standard_alignment": {
+        "art_practice_type": [
+          "欣赏·评述"
+        ],
+        "core_competency_focus": [
+          "审美感知",
+          "文化理解"
+        ]
+      },
+      "media_requirements": {
+        "image_required": false,
+        "video_required": false,
+        "student_work_usable": true,
+        "physical_material_required": false,
+        "text_prompt_required": true,
+        "audio_required": false,
+        "data_required": true
+      },
+      "screen_surface": "作品墙/评价关键词",
+      "learning_sheet_surface": "评价记录卡",
+      "teacher_language_slots": [
+        "task_release_talk",
+        "practice_instruction",
+        "feedback_language"
+      ],
+      "student_action": [
+        "观察",
+        "操作或表达",
+        "说明理由",
+        "提交证据"
+      ],
+      "evidence_output": [
+        "评价关键词",
+        "同伴反馈",
+        "作品改进建议"
+      ],
+      "output_data": [
+        "component_use_record",
+        "student_response",
+        "evidence_marker"
+      ],
+      "offline_fallback": "无大屏时可用纸质图片、学习单、小组讨论或实物材料完成。",
+      "misuse_risk": "若只把“作品画廊”当活动名称或 UI 控件使用，会丢失教学责任和证据输出。",
+      "forbidden_use": [
+        "不得作为纯 UI 控件上线",
+        "不得替代课标和资料证据判断",
+        "不得自动发布为 active_component"
+      ],
+      "implementation_status": "fixture_component",
+      "sample_use_case": "在三年级美术课中，当不会欣赏同伴作品时，用“作品画廊”承接一个 3-8 分钟课堂动作。",
+      "teacher_language_example": "请用“作品画廊”的方法完成观察或操作，说清你的发现和理由。",
+      "screen_prompt_example": "作品画廊: 看任务、做动作、说理由、留证据。",
+      "learning_evidence_example": "评价关键词"
+    },
+    {
+      "component_id": "keyword_feedback",
+      "cn_label": "关键词评价",
+      "component_type": "display_evaluation",
+      "teaching_responsibility": "作为展示评价类组件，关键词评价用于把课堂动作转化为可观察、可提示、可留下证据的学习过程。",
+      "student_problem_solved": "评价空泛，只会说好看。",
+      "why_use": "当评价空泛，只会说好看时使用，帮助教师把学习困难转化为可操作的课堂任务。",
+      "how_to_use": [
+        "明确学习目标或观察对象",
+        "启动“关键词评价”课堂任务",
+        "让学生观看作品并用关键词评价",
+        "教师追问理由或方法",
+        "收集学习证据并归纳方法"
+      ],
+      "suitable_grade_band": [
+        "第一学段",
+        "第二学段",
+        "第三学段"
+      ],
+      "suitable_archetypes": [
+        "assessment_evidence_chain",
+        "presentation_expression"
+      ],
+      "linked_candidate_skills": [
+        "assessment_evidence_chain_skill",
+        "peer_feedback_skill"
+      ],
+      "standard_alignment": {
+        "art_practice_type": [
+          "欣赏·评述"
+        ],
+        "core_competency_focus": [
+          "审美感知",
+          "文化理解"
+        ]
+      },
+      "media_requirements": {
+        "image_required": false,
+        "video_required": false,
+        "student_work_usable": true,
+        "physical_material_required": false,
+        "text_prompt_required": true,
+        "audio_required": false,
+        "data_required": true
+      },
+      "screen_surface": "作品墙/评价关键词",
+      "learning_sheet_surface": "评价记录卡",
+      "teacher_language_slots": [
+        "task_release_talk",
+        "practice_instruction",
+        "feedback_language"
+      ],
+      "student_action": [
+        "观察",
+        "操作或表达",
+        "说明理由",
+        "提交证据"
+      ],
+      "evidence_output": [
+        "评价关键词",
+        "同伴反馈",
+        "作品改进建议"
+      ],
+      "output_data": [
+        "component_use_record",
+        "student_response",
+        "evidence_marker"
+      ],
+      "offline_fallback": "无大屏时可用纸质图片、学习单、小组讨论或实物材料完成。",
+      "misuse_risk": "若只把“关键词评价”当活动名称或 UI 控件使用，会丢失教学责任和证据输出。",
+      "forbidden_use": [
+        "不得作为纯 UI 控件上线",
+        "不得替代课标和资料证据判断",
+        "不得自动发布为 active_component"
+      ],
+      "implementation_status": "fixture_component",
+      "sample_use_case": "在三年级美术课中，当评价空泛，只会说好看时，用“关键词评价”承接一个 3-8 分钟课堂动作。",
+      "teacher_language_example": "请用“关键词评价”的方法完成观察或操作，说清你的发现和理由。",
+      "screen_prompt_example": "关键词评价: 看任务、做动作、说理由、留证据。",
+      "learning_evidence_example": "评价关键词"
+    },
+    {
+      "component_id": "learning_sheet_record",
+      "cn_label": "学习单记录",
+      "component_type": "evidence_collection",
+      "teaching_responsibility": "作为证据采集类组件，学习单记录用于把课堂动作转化为可观察、可提示、可留下证据的学习过程。",
+      "student_problem_solved": "过程没有证据。",
+      "why_use": "当过程没有证据时使用，帮助教师把学习困难转化为可操作的课堂任务。",
+      "how_to_use": [
+        "明确学习目标或观察对象",
+        "启动“学习单记录”课堂任务",
+        "让学生提交答案、记录或作品证据",
+        "教师追问理由或方法",
+        "收集学习证据并归纳方法"
+      ],
+      "suitable_grade_band": [
+        "第一学段",
+        "第二学段",
+        "第三学段"
+      ],
+      "suitable_archetypes": [
+        "assessment_evidence_chain"
+      ],
+      "linked_candidate_skills": [
+        "assessment_evidence_chain_skill",
+        "source_evidence_capture_skill"
+      ],
+      "standard_alignment": {
+        "art_practice_type": [
+          "综合·探索"
+        ],
+        "core_competency_focus": [
+          "创意实践",
+          "文化理解"
+        ]
+      },
+      "media_requirements": {
+        "image_required": false,
+        "video_required": false,
+        "student_work_usable": true,
+        "physical_material_required": false,
+        "text_prompt_required": true,
+        "audio_required": false,
+        "data_required": true
+      },
+      "screen_surface": "问题/任务/提交提示",
+      "learning_sheet_surface": "答题或记录栏",
+      "teacher_language_slots": [
+        "task_release_talk",
+        "practice_instruction",
+        "feedback_language"
+      ],
+      "student_action": [
+        "观察",
+        "操作或表达",
+        "说明理由",
+        "提交证据"
+      ],
+      "evidence_output": [
+        "答题结果",
+        "提交记录",
+        "过程证据"
+      ],
+      "output_data": [
+        "component_use_record",
+        "student_response",
+        "evidence_marker"
+      ],
+      "offline_fallback": "无大屏时可用纸质图片、学习单、小组讨论或实物材料完成。",
+      "misuse_risk": "若只把“学习单记录”当活动名称或 UI 控件使用，会丢失教学责任和证据输出。",
+      "forbidden_use": [
+        "不得作为纯 UI 控件上线",
+        "不得替代课标和资料证据判断",
+        "不得自动发布为 active_component"
+      ],
+      "implementation_status": "fixture_component",
+      "sample_use_case": "在三年级美术课中，当过程没有证据时，用“学习单记录”承接一个 3-8 分钟课堂动作。",
+      "teacher_language_example": "请用“学习单记录”的方法完成观察或操作，说清你的发现和理由。",
+      "screen_prompt_example": "学习单记录: 看任务、做动作、说理由、留证据。",
+      "learning_evidence_example": "答题结果"
+    },
+    {
+      "component_id": "mini_quiz",
+      "cn_label": "小测验",
+      "component_type": "evidence_collection",
+      "teaching_responsibility": "作为证据采集类组件，小测验用于把课堂动作转化为可观察、可提示、可留下证据的学习过程。",
+      "student_problem_solved": "教师不知道学生是否理解。",
+      "why_use": "当教师不知道学生是否理解时使用，帮助教师把学习困难转化为可操作的课堂任务。",
+      "how_to_use": [
+        "明确学习目标或观察对象",
+        "启动“小测验”课堂任务",
+        "让学生提交答案、记录或作品证据",
+        "教师追问理由或方法",
+        "收集学习证据并归纳方法"
+      ],
+      "suitable_grade_band": [
+        "第一学段",
+        "第二学段",
+        "第三学段"
+      ],
+      "suitable_archetypes": [
+        "assessment_evidence_chain"
+      ],
+      "linked_candidate_skills": [
+        "assessment_evidence_chain_skill",
+        "source_evidence_capture_skill"
+      ],
+      "standard_alignment": {
+        "art_practice_type": [
+          "综合·探索"
+        ],
+        "core_competency_focus": [
+          "创意实践",
+          "文化理解"
+        ]
+      },
+      "media_requirements": {
+        "image_required": false,
+        "video_required": false,
+        "student_work_usable": true,
+        "physical_material_required": false,
+        "text_prompt_required": true,
+        "audio_required": false,
+        "data_required": true
+      },
+      "screen_surface": "问题/任务/提交提示",
+      "learning_sheet_surface": "答题或记录栏",
+      "teacher_language_slots": [
+        "task_release_talk",
+        "practice_instruction",
+        "feedback_language"
+      ],
+      "student_action": [
+        "观察",
+        "操作或表达",
+        "说明理由",
+        "提交证据"
+      ],
+      "evidence_output": [
+        "答题结果",
+        "提交记录",
+        "过程证据"
+      ],
+      "output_data": [
+        "component_use_record",
+        "student_response",
+        "evidence_marker"
+      ],
+      "offline_fallback": "无大屏时可用纸质图片、学习单、小组讨论或实物材料完成。",
+      "misuse_risk": "若只把“小测验”当活动名称或 UI 控件使用，会丢失教学责任和证据输出。",
+      "forbidden_use": [
+        "不得作为纯 UI 控件上线",
+        "不得替代课标和资料证据判断",
+        "不得自动发布为 active_component"
+      ],
+      "implementation_status": "fixture_component",
+      "sample_use_case": "在三年级美术课中，当教师不知道学生是否理解时，用“小测验”承接一个 3-8 分钟课堂动作。",
+      "teacher_language_example": "请用“小测验”的方法完成观察或操作，说清你的发现和理由。",
+      "screen_prompt_example": "小测验: 看任务、做动作、说理由、留证据。",
+      "learning_evidence_example": "答题结果"
+    },
+    {
+      "component_id": "photo_submit",
+      "cn_label": "拍照提交",
+      "component_type": "evidence_collection",
+      "teaching_responsibility": "作为证据采集类组件，拍照提交用于把课堂动作转化为可观察、可提示、可留下证据的学习过程。",
+      "student_problem_solved": "作品过程难收集。",
+      "why_use": "当作品过程难收集时使用，帮助教师把学习困难转化为可操作的课堂任务。",
+      "how_to_use": [
+        "明确学习目标或观察对象",
+        "启动“拍照提交”课堂任务",
+        "让学生提交答案、记录或作品证据",
+        "教师追问理由或方法",
+        "收集学习证据并归纳方法"
+      ],
+      "suitable_grade_band": [
+        "第一学段",
+        "第二学段",
+        "第三学段"
+      ],
+      "suitable_archetypes": [
+        "assessment_evidence_chain"
+      ],
+      "linked_candidate_skills": [
+        "assessment_evidence_chain_skill",
+        "source_evidence_capture_skill"
+      ],
+      "standard_alignment": {
+        "art_practice_type": [
+          "综合·探索"
+        ],
+        "core_competency_focus": [
+          "创意实践",
+          "文化理解"
+        ]
+      },
+      "media_requirements": {
+        "image_required": false,
+        "video_required": false,
+        "student_work_usable": true,
+        "physical_material_required": false,
+        "text_prompt_required": true,
+        "audio_required": false,
+        "data_required": true
+      },
+      "screen_surface": "问题/任务/提交提示",
+      "learning_sheet_surface": "答题或记录栏",
+      "teacher_language_slots": [
+        "task_release_talk",
+        "practice_instruction",
+        "feedback_language"
+      ],
+      "student_action": [
+        "观察",
+        "操作或表达",
+        "说明理由",
+        "提交证据"
+      ],
+      "evidence_output": [
+        "答题结果",
+        "提交记录",
+        "过程证据"
+      ],
+      "output_data": [
+        "component_use_record",
+        "student_response",
+        "evidence_marker"
+      ],
+      "offline_fallback": "无大屏时可用纸质图片、学习单、小组讨论或实物材料完成。",
+      "misuse_risk": "若只把“拍照提交”当活动名称或 UI 控件使用，会丢失教学责任和证据输出。",
+      "forbidden_use": [
+        "不得作为纯 UI 控件上线",
+        "不得替代课标和资料证据判断",
+        "不得自动发布为 active_component"
+      ],
+      "implementation_status": "fixture_component",
+      "sample_use_case": "在三年级美术课中，当作品过程难收集时，用“拍照提交”承接一个 3-8 分钟课堂动作。",
+      "teacher_language_example": "请用“拍照提交”的方法完成观察或操作，说清你的发现和理由。",
+      "screen_prompt_example": "拍照提交: 看任务、做动作、说理由、留证据。",
+      "learning_evidence_example": "答题结果"
+    }
+  ]
+}
